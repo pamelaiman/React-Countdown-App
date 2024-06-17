@@ -14,7 +14,7 @@ function LaunchCountdown() {
     }
   }
 
-  function numChecker(num) {
+  function numberOrEmojiForCount(num) {
     if (num === 1) {
       return "👩‍🚀";
     } else if (num === 0) {
@@ -24,7 +24,7 @@ function LaunchCountdown() {
     }
   }
 
-  const displayedNumber = numChecker(count);
+  const displayedNumber = numberOrEmojiForCount(count);
 
   return (
     <>
