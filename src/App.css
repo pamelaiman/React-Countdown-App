@@ -12,6 +12,8 @@
 .countdowns {
   display: flex;
   padding: 2rem;
+  text-align: center;
+  justify-content: center;
   gap: 5rem;
 }
 
